@@ -67,7 +67,7 @@ def main(repo):
     for key, (ts, it, pages, title) in sorted(best.items()):
         if key == "constitution":
             path = os.path.join(repo, "constitution", "constitution-of-botswana.md")
-            ident, typ = "Cap. 00:00 (Constitution)", "constitution"
+            ident, typ = "", "constitution"
         elif re.match(r"\d+:\d+$", key):
             path = os.path.join(repo, "chapters", "cap-%s-%s.md" % (key.replace(":", "-"), slug(title)[:70]))
             ident, typ = "Cap. " + key, "act"

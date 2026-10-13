@@ -1,6 +1,5 @@
 ---
 title: "Constitution of Botswana"
-identifier: "Cap. 00:00 (Constitution)"
 type: constitution
 jurisdiction: bw
 language: en
